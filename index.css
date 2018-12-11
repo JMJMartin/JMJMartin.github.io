@@ -4,8 +4,19 @@
 #link2 {
  
 }
+#link3 {
+ 
+}
 .unselected {
- font-color: black;
+ color: rgb(200,190,15);
+ text-decoration: none;
+}
+.selected {
+ color: rgb(255,255,255);
+ text-decoration: none;
+}
+a:hover {
+ color: rgb(5,190,60);
 }
 .header {
  top: 0px;
