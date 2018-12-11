@@ -1,21 +1,42 @@
+body {
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
+}
 #link1 {
-  
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
 }
 #link2 {
- 
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
 }
 #link3 {
- 
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
 }
 #header {
  top: 0px;
  height: 25%;
  width: 100%;
- position: relative;
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
  background-color: rgb(213, 32, 45);
 }
 #headerBox {
- position: relative;
+ padding: 0;
+ border: 0;
+ margin: 0;
+ display: block;
  margin: 20px;
 }
 .unselected {
