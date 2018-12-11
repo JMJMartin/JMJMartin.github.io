@@ -1,35 +1,41 @@
 body {
+ top: 0;
  padding: 0;
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
 }
 #link1 {
  padding: 0;
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
 }
 #link2 {
  padding: 0;
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
 }
 #link3 {
  padding: 0;
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
 }
 #header {
- top: 0px;
+ top: 0;
  height: 25%;
  width: 100%;
  padding: 0;
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
  background-color: rgb(213, 32, 45);
 }
 #headerBox {
@@ -37,6 +43,7 @@ body {
  border: 0;
  margin: 0;
  display: block;
+ position: fixed;
  margin: 20px;
 }
 .unselected {
