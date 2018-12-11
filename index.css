@@ -11,9 +11,11 @@
  top: 0px;
  height: 25%;
  width: 100%;
+ position: relative;
  background-color: rgb(213, 32, 45);
 }
 #headerBox {
+ position: relative;
  margin: 20px;
 }
 .unselected {
