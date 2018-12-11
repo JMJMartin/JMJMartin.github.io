@@ -8,15 +8,15 @@
  
 }
 .unselected {
- color: rgb(0,0,0);
+ color: rgb(5,190,80);
  text-decoration: none;
 }
 .selected {
- color: rgb(200,15,190);
+ color: rgb(5,60,190);
  text-decoration: none;
 }
 a:hover {
- color: rgb(5,190,60);
+ color: rgb(190,60,20);
 }
 .header {
  top: 0px;
