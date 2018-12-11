@@ -7,8 +7,13 @@
 #link3 {
  
 }
+#header {
+ top: 0px;
+ margin: 20px;
+ background-color: rgb(213, 32, 45);
+}
 .unselected {
- color: rgb(213, 32, 45);
+ color: rgb(255, 255, 255);
  text-decoration: none;
 }
 .selected {
@@ -17,8 +22,4 @@
 }
 a:hover {
  color: rgb(115, 193, 93);
-}
-.header {
- top: 0px;
- margin: 10px;
 }
