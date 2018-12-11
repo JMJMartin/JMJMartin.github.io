@@ -9,8 +9,12 @@
 }
 #header {
  top: 0px;
- margin: 20px;
+ height: 25%;
+ width: 100%;
  background-color: rgb(213, 32, 45);
+}
+#headerBox {
+ margin: 20px;
 }
 .unselected {
  color: rgb(255, 255, 255);
