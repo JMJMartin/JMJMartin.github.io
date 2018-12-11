@@ -8,11 +8,11 @@
  
 }
 .unselected {
- color: rgb(200,190,15);
+ color: rgb(200,15,190);
  text-decoration: none;
 }
 .selected {
- color: rgb(255,255,255);
+ color: rgb(0,0,0);
  text-decoration: none;
 }
 a:hover {
