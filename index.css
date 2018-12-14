@@ -16,9 +16,10 @@ body {
 }
 a {
  text-decoration: none;
+ color: 'white';
 }
 a:hover {
- color: rgb(115, 193, 93);
+ color: #003366;
 }
 .buttons {
  display: inline-block;
