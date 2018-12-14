@@ -29,6 +29,7 @@ a.selected:hover {
  color: #ff1a1a;
 }
 .selbuttons {
+ top: 50%;
  display: inline-block;
  border-radius: 4px;
  border: none;
