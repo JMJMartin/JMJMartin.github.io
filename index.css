@@ -6,58 +6,15 @@ body {
  display: block;
  position: fixed;
 }
-#link1 {
- padding: 0;
- border: 0;
- margin: 0;
- display: block;
- position: fixed;
-}
-#link2 {
- padding: 0;
- border: 0;
- margin: 0;
- display: block;
- position: fixed;
-}
-#link3 {
- padding: 0;
- border: 0;
- margin: 0;
- display: block;
- position: fixed;
-}
-#header,
-.box {
- border-radius: 6px;
-}
-#header {
- top: 0;
- height: 10%;
- width: 100%;
- padding: 0;
- border: 0;
- margin: 0;
- display: block;
- position: fixed;
- background-color: rgb(10, 10, 10);
- overflow: auto;
-}
-.box {
- width: 29.615861214%;
- padding: 20px 0;
- border: 0;
- margin: 1.858736059%;
- float: left;
- text-align: center;
- background-color: rgb(210, 210, 210);
-}
 .unselected {
  color: rgb(255, 255, 255);
  text-decoration: none;
 }
 .selected {
  color: rgb(64, 117, 227);
+ text-decoration: none;
+}
+a {
  text-decoration: none;
 }
 a:hover {
