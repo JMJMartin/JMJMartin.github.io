@@ -6,25 +6,31 @@ body {
  display: block;
  position: fixed;
 }
-.unselected {
- color: rgb(255, 255, 255);
+button.unselected {
+ background-color: #f4511e;
  text-decoration: none;
 }
-.selected {
- color: rgb(64, 117, 227);
+button.selected {
+ background-color: #003366;
  text-decoration: none;
 }
-a {
+a.unselected {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+a.selected {
  text-decoration: none;
  color: #FFFFFF;
 }
-a:hover {
+a.unselected:hover {
  color: #003366;
+}
+a.selected:hover {
+ color: #f4511e;
 }
 .buttons {
  display: inline-block;
  border-radius: 4px;
- background-color: #f4511e;
  border: none;
  color: #FFFFFF;
  text-align: center;
