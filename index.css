@@ -28,7 +28,7 @@ a.unselected:hover {
 a.selected:hover {
  color: #ff1a1a;
 }
-.buttons {
+.selbuttons {
  display: inline-block;
  border-radius: 4px;
  border: none;
@@ -43,13 +43,13 @@ a.selected:hover {
  float: left;
  text-align: center;
 }
-.buttons span {
+.selbuttons span {
  cursor: pointer;
  display: inline-block;
  position: relative;
  transition: 0.5s;
 }
-.buttons span:after {
+.selbuttons span:after {
  content: '\00bb';
  position: absolute;
  opacity: 0;
@@ -57,10 +57,10 @@ a.selected:hover {
  right: -20px;
  transition: 0.5s;
 }
-.buttons:hover span {
+.selbuttons:hover span {
  padding-right: 25px;
 }
-.buttons:hover span:after {
+.selbuttons:hover span:after {
  opacity: 1;
  right: 0;
 }
