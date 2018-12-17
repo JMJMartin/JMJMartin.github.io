@@ -25,13 +25,19 @@ body {
  float: left;
  color: #FFFFFF;
 }
-.selbuttons .minbuttons span {
+.selbuttons span {
  cursor: pointer;
  display: inline-block;
  position: relative;
  transition: 0.5s;
 }
-.selbuttons .minbuttons span:after {
+.minbuttons span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+.selbuttons span:after {
  content: '\00bb';
  position: absolute;
  opacity: 0;
@@ -39,10 +45,25 @@ body {
  right: -20px;
  transition: 0.5s;
 }
-.selbuttons .minbuttons:hover span {
+.minbuttons span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+.selbuttons:hover span {
  padding-right: 25px;
 }
-.selbuttons .minbuttons:hover span:after {
+.minbuttons:hover span {
+ padding-right: 25px;
+}
+.selbuttons:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+.minbuttons:hover span:after {
  opacity: 1;
  right: 0;
 }
