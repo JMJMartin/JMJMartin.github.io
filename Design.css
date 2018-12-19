@@ -25,19 +25,23 @@ body {
  float: left;
  color: #FFFFFF;
 }
-.selbuttons span {
+.evenminbuttons {
+ font-size: 15px;
+ padding: 20px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+ float: left;
+ color: #FFFFFF;
+}
+.buttons span {
  cursor: pointer;
  display: inline-block;
  position: relative;
  transition: 0.5s;
 }
-.minbuttons span {
- cursor: pointer;
- display: inline-block;
- position: relative;
- transition: 0.5s;
-}
-.selbuttons span:after {
+.buttons span:after {
  content: '\00bb';
  position: absolute;
  opacity: 0;
@@ -45,25 +49,10 @@ body {
  right: -20px;
  transition: 0.5s;
 }
-.minbuttons span:after {
- content: '\00bb';
- position: absolute;
- opacity: 0;
- top: 0;
- right: -20px;
- transition: 0.5s;
-}
-.selbuttons:hover span {
+.buttons:hover span {
  padding-right: 25px;
 }
-.minbuttons:hover span {
- padding-right: 25px;
-}
-.selbuttons:hover span:after {
- opacity: 1;
- right: 0;
-}
-.minbuttons:hover span:after {
+.buttons:hover span:after {
  opacity: 1;
  right: 0;
 }
@@ -89,3 +78,4 @@ a.unselected:hover {
 a.selected:hover {
  color: #ff1a1a;
 }
+
