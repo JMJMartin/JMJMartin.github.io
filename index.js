@@ -2,8 +2,8 @@ var player, score, music, runners, bullets;
 var up = 5, left = 6, left2 = 10, down = 11, down2 = 15, right = 16, right2 = 20;
 
 function startGame() {
-    player = new component(18, 38, "", 90, window.innerHeight - 90
-, "image");
+    player = new component(180, 380, "boi.png", 90, myGameArea.can
+			   vas.height - 310, "image");
     score = new component("30px", "Consolas", "Red", 50, 50, "text");
     runners = [];
     bullets = [];
