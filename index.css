@@ -3,4 +3,9 @@
   height: 150px;
   left: 25%;
   text-align: center;
+  position: fixed;
+}
+#header1 {
+  top: 40%;
+  position: relative;
 }
